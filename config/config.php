@@ -1,10 +1,10 @@
 <?php
 session_start();
 $developer = true;
-define("DATABASE", "vanitv_demo");
-define("USERNAME", "vanitv_demo");
-define("PASSWORD", "vanitv_demo");
-define("LOCALHOST", "localhost");
+define("DATABASE", "sldzbasm_z");
+define("USERNAME", "sldzbasm_z");
+define("PASSWORD", "sldzbasm_z");
+define("LOCALHOST", "https://free02.123host.vn/phpMyAdmin/index.php");
 $ketnoi = mysqli_connect(LOCALHOST,USERNAME,PASSWORD,DATABASE);
 $ketnoi->query("set names 'utf8'");
 date_default_timezone_set('Asia/Ho_Chi_Minh');
